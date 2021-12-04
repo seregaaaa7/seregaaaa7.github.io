@@ -5,11 +5,13 @@
     <style type="text/css">
         body {background-color: #c5ffa0}
       li {
-       color: red;
+       list-style-type: none; /* Прячем исходные маркеры */
       }
-      li span {
-       color: navy; 
-      {
+      li:before {
+       color: red; 
+       content: "➣ "; 
+       padding-right: 10px; 
+      }    
     <link rel="stylesheet" type="text/css" href="style.css">
     </style>
 </head>
