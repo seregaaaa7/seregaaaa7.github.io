@@ -10,3 +10,18 @@ h1 {
   font-family: Georgia, Times, serif; 
   font-weight: normal; 
 }
+.title {
+	font-size: 50px;
+	color: #000;
+	padding-left: 10px;
+	line-height: 59px;
+}
+.title span {
+	display: inline;
+	background-color: #b5226c;
+	padding: 5px 10px;
+	color: #FFFFFF;
+	font-size: 45px;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;   
+}
