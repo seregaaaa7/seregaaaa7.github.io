@@ -10,3 +10,10 @@ h1 {
   font-family: Georgia, Times, serif; 
   font-weight: normal; 
 }
+li {
+  list-style-type: none; 
+}
+ul {
+  margin-left: 0; 
+  padding-left: 0; 
+}
