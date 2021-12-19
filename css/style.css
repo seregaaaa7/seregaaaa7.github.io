@@ -12,7 +12,12 @@ h1
 	font-size: 24pt;
 	font-weight: normal;
 }
-. block ul li
+li
 {
-	list-style: none;
+	list-style-type: none;
+}
+ul
+{
+	margin-left: 0;
+	padding-left: 0;
 }
