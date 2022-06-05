@@ -1,23 +1,68 @@
-body
-{
-	background-color: #f0f0f0;
-	color: #333;
-	font-family: Arial, Verdana, sans-serif;
-	font-size: 11pt;
+.demo-3 .main h2:after,
+.demo-3 .main h3:after,
+.demo-3 .main h4:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    border-radius: 2px;
+    box-shadow:
+        inset 0 1px 1px rgba(0,0,0,0.5),
+        0 1px 1px rgba(255,255,255,0.3);
 }
-h1
-{
-	color: #a52a2a;
-	font-family: Georgia, Times, serif;
-	font-size: 24pt;
-	font-weight: normal;
+ 
+.demo-3 .main h2:after { background: #0AF; }
+.demo-3 .main h3:after { background: #3BF; }
+.demo-3 .main h4:after { background: #6Cf; }
+ 
+.demo-3 .main h1 {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 1em 0 .6em 0;
+    font-weight: normal;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+    position: relative;
+    color: #6Cf;
 }
-li
-{
-	list-style-type: none;
+ 
+.demo-3 .main h2 {
+    margin: 1em 0 .6em 0;
+    padding: 0 0 0 20px;
+    font-weight: normal;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
 }
-ul
-{
-	margin-left: 0;
-	padding-left: 0;
+ 
+.demo-3 .main h3 {
+    margin: 1em 0 .6em 0;
+    padding: 0 0 0 20px;
+    font-weight: normal;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+    position: relative;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Questrial', sans-serif;
+}
+ 
+.demo-3 .main h4 {
+    margin: 1em 0 .6em 0;
+    padding: 0 0 0 20px;
+    font-weight: normal;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Questrial', sans-serif;
 }
